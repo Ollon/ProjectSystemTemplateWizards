@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Global Properties Provider</Name>
+    <Description>Provides an implementation of IProjectGlobalPropertiesProvider</Description>
+    <Icon>BuildSolution.ico</Icon>
+    <TemplateID>3dc9c786-b54e-438d-9126-5956cdfb6683</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>GlobalPropertiesProvider</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <!--<ProjectItem ReplaceParameters="true">Provider.cs</ProjectItem>-->
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>Microsoft.VisualStudio.ProjectSystem.TemplateWizards, Version=1.0.0.0, Culture=neutral, PublicKeyToken=93568446164f5916</Assembly>
+    <FullClassName>Microsoft.VisualStudio.ProjectSystem.TemplateWizards.Items.GlobalPropertiesProviderWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>

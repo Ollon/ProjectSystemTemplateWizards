@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Default Xaml Property Rules</Name>
+    <Description>Default Xaml Property Rules</Description>
+    <Icon>DefaultXamlPropertyRules.ico</Icon>
+    <TemplateID>7ae16944-4e9a-48b9-be43-4b0abf44c12b</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>XamlPropertyRules</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>Microsoft.VisualStudio.ProjectSystem.TemplateWizards, Version=1.0.0.0, Culture=neutral, PublicKeyToken=93568446164f5916</Assembly>
+    <FullClassName>Microsoft.VisualStudio.ProjectSystem.TemplateWizards.Items.DefaultXamlPropertyRuleWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>

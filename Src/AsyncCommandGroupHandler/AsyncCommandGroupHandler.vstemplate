@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Async Command Group Handler extension</Name>
+    <Description>An IAsyncCommandGroupHandler export that defines command handling for a group of asynchronous commands.</Description>
+    <Icon>SettingsGroup.ico</Icon>
+    <TemplateID>3f1d45b0-ed6d-4fe6-aefa-e5207bd3ea52</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>Class.cs</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>Microsoft.VisualStudio.ProjectSystem.TemplateWizards, Version=1.0.0.0, Culture=neutral, PublicKeyToken=93568446164f5916</Assembly>
+    <FullClassName>Microsoft.VisualStudio.ProjectSystem.TemplateWizards.Items.AsyncCommandGroupHandlerWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>

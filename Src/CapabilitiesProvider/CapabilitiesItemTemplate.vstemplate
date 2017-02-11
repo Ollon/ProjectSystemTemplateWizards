@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Project Capabilities Provider extension</Name>
+    <Description>An IProjectCapabilitiesProvider export that can declare capabilities on behalf of a project.</Description>
+    <Icon>ApplicationBehaviorSettings.ico</Icon>
+    <TemplateID>28cd8b64-e5c9-4d6e-a783-8f4ea4cdec54</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>4.5.2</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
+    <SortOrder>1000</SortOrder>
+    <DefaultName>ProjectCapabilitiesProvider</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>Microsoft.VisualStudio.ProjectSystem.TemplateWizards, Version=1.0.0.0, Culture=neutral, PublicKeyToken=93568446164f5916</Assembly>
+    <FullClassName>Microsoft.VisualStudio.ProjectSystem.TemplateWizards.Items.CapabilitiesProviderWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>

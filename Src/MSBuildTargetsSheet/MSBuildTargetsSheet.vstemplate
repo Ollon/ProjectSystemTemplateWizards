@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>MSBuild Targets Sheet</Name>
+    <Description>MSBuild Targets Sheet</Description>
+    <Icon>Target.ico</Icon>
+    <TemplateID>ce24b131-1b5a-450c-ab94-d9821e688ca6</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>Imports</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem TargetFileName="$safeitemname$.targets">Imports.targets</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{39FFDCD1-EF72-4D43-A402-DACFECEB3283}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Microsoft.VisualStudio</RootNamespace>
+    <AssemblyName>Microsoft.VisualStudio.ProjectSystem.TemplateWizards</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>ProjectSystemWizardsKey.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="envdte, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="envdte100, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="envdte80, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="envdte90, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="envdte90a, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.ComponentModelHost, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.OLE.Interop, Version=7.1.40304.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.Shell.15.0, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Framework, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Immutable.10.0, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop, Version=7.1.40304.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.10.0, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.11.0, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.8.0, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.9.0, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.TemplateWizardInterface, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Threading, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Utilities, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Validation, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="VSLangProj, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="VSLangProj100, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="VSLangProj110, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="VSLangProj140, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="VSLangProj2, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="VSLangProj80, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="VSLangProj90, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Context\ContextDiscovery.cs" />
+    <Compile Include="Context\ProjectItemOrProject.cs" />
+    <Compile Include="Context\VisualStudioContext.cs" />
+    <Compile Include="Context\VisualStudioContextGuids.cs" />
+    <Compile Include="GlobalServices.cs" />
+    <Compile Include="ProjectSystem\Controls\VsDarkThemeComboBox.xaml.cs">
+      <DependentUpon>VsDarkThemeComboBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectSystem\Controls\VsDarkThemeGrid.xaml.cs">
+      <DependentUpon>VsDarkThemeGrid.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectSystem\Controls\VsDarkThemeTextBox.xaml.cs">
+      <DependentUpon>VsDarkThemeTextBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectSystem\TemplateWizards\AbstractTemplateWizard.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Factories\IXamlPropertyRuleContext.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Factories\XamlPropertyRuleFactory.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Generators\DocumentGenerator.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Generators\SourceCodeGenerator.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Generators\XamlPropertyRuleGenerator.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Generators\XamlPropertyRuleOption.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Items\AsyncCommandGroupHandlerWizard.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Items\CapabilitiesProviderWizard.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Items\DefaultXamlPropertyRuleWizard.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Items\GlobalPropertiesProviderWizard.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Items\ItemTemplateWizardBase.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Items\XamlPropertyRuleWizard.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Projects\ProjectTemplateWizardBase.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Services\CouldNotFindEquivalentDocumentException.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Services\IMetadataReferenceService.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Services\MetadataReferenceService.PathHelper.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Services\MetadataReferenceService.ReferenceLists.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Services\MetadataReferenceService.References.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Services\CouldNotFindEquivalentProjectException.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Services\EnvDTEProject.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Services\EquivalencyProvider.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Services\IProjectSystemPackageService.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Services\IProjectSystemReferenceService.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Services\ItemTypeGuids.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Services\MetadataReferenceService.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Services\ProjectSystemPackageService.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Services\ProjectSystemReferenceService.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Services\ReferencesOption.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Services\RoslynAndEnvDTEProject.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\Services\RoslynSolutionService.cs" />
+    <Compile Include="ProjectSystem\TemplateWizards\ThreadedWaitDialogProgressScope.cs" />
+    <Compile Include="ProjectSystem\Utilities\EnvDTEExtensions.cs" />
+    <Compile Include="ProjectSystem\Utilities\EnvDTEHelper.cs" />
+    <Compile Include="ProjectSystem\Utilities\EnvironmentHelper.cs" />
+    <Compile Include="ProjectSystem\Utilities\FrameworkEnvironment.cs" />
+    <Compile Include="ProjectSystem\Utilities\FrameworkHelper.cs" />
+    <Compile Include="ProjectSystem\Utilities\HierarchyManager.cs" />
+    <Compile Include="ProjectSystem\Utilities\ReferenceHelper.cs" />
+    <Compile Include="ProjectSystem\Utilities\Refresher.cs" />
+    <Compile Include="ProjectSystem\Utilities\SetupHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Setup\Configuration\Interop\IEnumSetupInstances.cs" />
+    <Compile Include="Setup\Configuration\Interop\InstanceState.cs" />
+    <Compile Include="Setup\Configuration\Interop\ISetupConfiguration.cs" />
+    <Compile Include="Setup\Configuration\Interop\ISetupConfiguration2.cs" />
+    <Compile Include="Setup\Configuration\Interop\ISetupErrorState.cs" />
+    <Compile Include="Setup\Configuration\Interop\ISetupFailedPackageReference.cs" />
+    <Compile Include="Setup\Configuration\Interop\ISetupHelper.cs" />
+    <Compile Include="Setup\Configuration\Interop\ISetupInstance.cs" />
+    <Compile Include="Setup\Configuration\Interop\ISetupInstance2.cs" />
+    <Compile Include="Setup\Configuration\Interop\ISetupPackageReference.cs" />
+    <Compile Include="Setup\Configuration\Interop\ISetupPropertyStore.cs" />
+    <Compile Include="Setup\Configuration\Interop\SetupConfiguration.cs" />
+    <Compile Include="Setup\Configuration\Interop\SetupConfigurationClass.cs" />
+    <Compile Include="Setup\Configuration\SetupEnvironment.cs" />
+    <Compile Include="Setup\Configuration\SetupInstance.cs" />
+    <Compile Include="Setup\Configuration\SetupPackageReference.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ProjectSystemWizardsKey.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="ProjectSystem\Controls\VsDarkThemeComboBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ProjectSystem\Controls\VsDarkThemeGrid.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ProjectSystem\Controls\VsDarkThemeTextBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.LanguageServices">
+      <Version>1.0.0</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.SDK.EmbedInteropTypes">
+      <Version>15.0.4</Version>
+    </PackageReference>
+    <PackageReference Include="NuGet.VisualStudio">
+      <Version>4.0.0-rtm-2265</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ProjectSystem\UI\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

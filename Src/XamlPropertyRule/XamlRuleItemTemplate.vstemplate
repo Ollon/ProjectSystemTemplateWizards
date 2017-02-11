@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Xaml Rule</Name>
+    <Description>Creates an empty Xaml Rule file.</Description>
+    <Icon>WPFPage_gray.ico</Icon>
+    <TemplateID>afa8f65f-7437-41d0-98a6-6259e5cbafbd</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>4.5.2</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
+    <DefaultName>Rule.xaml</DefaultName>
+    <SortOrder>1000</SortOrder>
+  </TemplateData>
+  <TemplateContent>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>Microsoft.VisualStudio.ProjectSystem.TemplateWizards, Version=1.0.0.0, Culture=neutral, PublicKeyToken=93568446164f5916</Assembly>
+    <FullClassName>Microsoft.VisualStudio.ProjectSystem.TemplateWizards.Items.XamlPropertyRuleWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>
